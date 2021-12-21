@@ -17,17 +17,17 @@ scrolling$.pipe(
     map(() => window.scrollY),
     throttleTime(190),
     pairwise(),
-<<<<<<< HEAD
+// <<<<<<< HEAD
     filter(([lastPixel, nowPixel]) => (lastPixel - nowPixel) > 50 || (nowPixel - lastPixel) > 50),
     map(([lastPixel, nowPixel]) => nowPixel < lastPixel),
 ).subscribe((event) => {
     if (event) {
-=======
+// =======
     filter((pixel) => (pixel[0] - pixel[1]) > 50 || (pixel[1] - pixel[0]) > 50),
     map((pixel) => pixel[1] < pixel[0]),
 ).subscribe((e) => {
     if (e) {
->>>>>>> c94a6559d2ca80041ad4aae55b4a0f7552a8340c
+// >>>>>>> c94a6559d2ca80041ad4aae55b4a0f7552a8340c
         headerEl.classList.remove('header_hidden');
     } else {
         headerEl.classList.add('header_hidden');

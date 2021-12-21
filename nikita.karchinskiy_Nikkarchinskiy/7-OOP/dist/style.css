@@ -1,0 +1,390 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.li-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 23.125rem;
+    max-height: 16.25rem;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 16px;
+}
+
+.container {
+    max-width: 75rem;
+    /* height: min-content; */
+    margin: auto;
+}
+
+.header {
+    background-color: white;
+    padding: 1rem 0 1rem 0;
+}
+
+.container-heder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.right-header {
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-number {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.header-btn-reg {
+    height: 2rem;
+    width: 6rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    border: none;
+    background-color: #E24329;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.header-btn-reg:hover {
+    background-color: #ff5420;
+}
+
+.main-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #E24329;
+    flex-direction: row;
+}
+
+
+.container-main-page {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5.67rem 0;
+}
+
+.left-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    color: white;
+    max-width: 45.625rem;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.25rem;
+    width: 100%;
+    height: 100%;
+    margin: 2.5rem 0 1.875rem 0;
+}
+
+.description-main-page {
+    color: white;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin-bottom: 3.625rem;
+}
+
+.main-page-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-main-page {
+    max-width: 25rem;
+    max-height: 3.75rem;
+    width: 100vw;
+    height: 100vh;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border: none;
+    padding: 0 0 0 2rem;
+    background-color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.input-main-page:focus {
+    outline: 0;
+}
+
+.input-main-page:active {
+    outline: 0;
+}
+
+.btn-main-page {
+    color: white;
+    max-width: 10.625rem;
+    max-height: 3.75rem;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    background-color: #FF6A00;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-main-page:hover {
+    background-color: #e0553f;
+}
+
+.why-us-wrapper {
+    margin-top: 75px;
+}
+
+.container-why-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-us-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.why-choose-us-discription {
+    text-align: center;
+}
+
+.industry-leading-li{
+    background-color: #FFF3EB;
+}
+
+.nationwide-coverage-li {
+    background-color: #ECEDFF;
+}
+
+.fastest-delivery {
+    background-color: #FFECF1;
+}
+
+.next-day-payment {
+    background-color: #F7F7F7;
+}
+
+.best-cod {
+    background-color: #FFFAEC;
+}
+
+.secure-handling {
+    background-color: #FFF3EB;
+}
+
+.product-insurance {
+    background-color: #EEFFF3;
+}
+
+.verified-products {
+    background-color: #FFECF1;
+}
+
+.realtime-monitoring {
+    background-color: #ECEDFF;
+}
+
+.form-wrapper {
+    margin-top: 75px;
+}
+
+.container-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-form-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-form {
+    font-size: 2.5rem;
+}
+
+.btn-form {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color: #E24329;
+    border: none;
+    border-radius: 25px;
+    color: #FFF;
+    margin-top: 30px;
+    padding: 11px 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-form:hover {
+    background-color: #e01e00;
+}
+
+.news-wrapper {
+    margin-top: 75px;
+    /* max-height: 1000px; */
+    /* height: 100vh; */
+}
+
+.container-news {
+    /* max-height: 1000px;
+    height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-news {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.design-li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.list-wrapper-news {
+    display: flex;
+    /* gap: 30px; */
+    justify-content: space-between;
+}
+
+.news-wathcer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.discription {
+    font-size: 20px
+}
+
+.learn-more-news {
+    color: #4cccc1;
+    margin-top: auto;
+    transition: .3s;
+    width: max-content;
+}
+
+.learn-more-news:hover {
+    color: #00aa9c;
+}
+
+.our-clients-wrapper {
+    margin-top: 75px;
+}
+
+.container-our-clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-wrapper {
+    margin-top: 75px;
+    padding-top: 75px;
+    background-color: #FFF2EF;
+}
+
+.container-footer {
+    max-width: 890px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-wrapper-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-wrapper-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-center-footer {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0;
+}
+
+.list-right-wrapper {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0;
+}
+
+.footer-links {
+    color: #000;
+    transition: .3s;
+}
+
+.footer-links:hover {
+    color: #E24329;
+}
+
+.bottom-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E24329;
+    color: #FFF;
+    margin-top: 20px;
+    padding: 10px 0;
+}
